@@ -1,0 +1,116 @@
+2025-12-10 13:57:13,591 INFO: Web Programlama Lab startup [in C:\Users\omu\Desktop\2526_fall_web_lab-main\06_error_handling\app\__init__.py:42]
+2025-12-10 13:57:24,334 ERROR: Exception on /edit_profile [GET] [in C:\Users\omu\Desktop\2526_fall_web_lab-main\venv\Lib\site-packages\flask\app.py:875]
+Traceback (most recent call last):
+  File "C:\Users\omu\Desktop\2526_fall_web_lab-main\venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\omu\Desktop\2526_fall_web_lab-main\venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\omu\Desktop\2526_fall_web_lab-main\venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\omu\Desktop\2526_fall_web_lab-main\venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\omu\Desktop\2526_fall_web_lab-main\venv\Lib\site-packages\flask_login\utils.py", line 290, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\omu\Desktop\2526_fall_web_lab-main\06_error_handling\app\routes.py", line 110, in edit_profile
+    form.location.data = current_user.location
+    ^^^^^^^^^^^^^
+AttributeError: 'EditProfileForm' object has no attribute 'location'
+2025-12-10 13:57:40,007 ERROR: Exception on /edit_profile [GET] [in C:\Users\omu\Desktop\2526_fall_web_lab-main\venv\Lib\site-packages\flask\app.py:875]
+Traceback (most recent call last):
+  File "C:\Users\omu\Desktop\2526_fall_web_lab-main\venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\omu\Desktop\2526_fall_web_lab-main\venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\omu\Desktop\2526_fall_web_lab-main\venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\omu\Desktop\2526_fall_web_lab-main\venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\omu\Desktop\2526_fall_web_lab-main\venv\Lib\site-packages\flask_login\utils.py", line 290, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\omu\Desktop\2526_fall_web_lab-main\06_error_handling\app\routes.py", line 110, in edit_profile
+    form.location.data = current_user.location
+    ^^^^^^^^^^^^^
+AttributeError: 'EditProfileForm' object has no attribute 'location'
+2025-12-10 13:59:05,894 ERROR: Exception on /edit_profile [GET] [in C:\Users\omu\Desktop\2526_fall_web_lab-main\venv\Lib\site-packages\flask\app.py:875]
+Traceback (most recent call last):
+  File "C:\Users\omu\Desktop\2526_fall_web_lab-main\venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\omu\Desktop\2526_fall_web_lab-main\venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\omu\Desktop\2526_fall_web_lab-main\venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\omu\Desktop\2526_fall_web_lab-main\venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\omu\Desktop\2526_fall_web_lab-main\venv\Lib\site-packages\flask_login\utils.py", line 290, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\omu\Desktop\2526_fall_web_lab-main\06_error_handling\app\routes.py", line 110, in edit_profile
+    form.location.data = current_user.location
+    ^^^^^^^^^^^^^
+AttributeError: 'EditProfileForm' object has no attribute 'location'
+2025-12-10 14:06:03,253 ERROR: Exception on /edit_profile [GET] [in C:\Users\omu\Desktop\2526_fall_web_lab-main\venv\Lib\site-packages\flask\app.py:875]
+Traceback (most recent call last):
+  File "C:\Users\omu\Desktop\2526_fall_web_lab-main\venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\omu\Desktop\2526_fall_web_lab-main\venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\omu\Desktop\2526_fall_web_lab-main\venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\omu\Desktop\2526_fall_web_lab-main\venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\omu\Desktop\2526_fall_web_lab-main\venv\Lib\site-packages\flask_login\utils.py", line 290, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\omu\Desktop\2526_fall_web_lab-main\06_error_handling\app\routes.py", line 110, in edit_profile
+    form.location.data = current_user.location
+    ^^^^^^^^^^^^^
+AttributeError: 'EditProfileForm' object has no attribute 'location'
+2025-12-10 14:08:09,093 INFO: Web Programlama Lab startup [in C:\Users\omu\Desktop\2526_fall_web_lab-main\06_error_handling\app\__init__.py:42]
+2025-12-10 14:08:17,084 ERROR: Exception on /edit_profile [GET] [in C:\Users\omu\Desktop\2526_fall_web_lab-main\venv\Lib\site-packages\flask\app.py:875]
+Traceback (most recent call last):
+  File "C:\Users\omu\Desktop\2526_fall_web_lab-main\venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\omu\Desktop\2526_fall_web_lab-main\venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\omu\Desktop\2526_fall_web_lab-main\venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\omu\Desktop\2526_fall_web_lab-main\venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\omu\Desktop\2526_fall_web_lab-main\venv\Lib\site-packages\flask_login\utils.py", line 290, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\omu\Desktop\2526_fall_web_lab-main\06_error_handling\app\routes.py", line 109, in edit_profile
+    return render_template('edit_profile.html', title='Edit Profile',
+                           form=form)
+  File "C:\Users\omu\Desktop\2526_fall_web_lab-main\venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+  File "C:\Users\omu\Desktop\2526_fall_web_lab-main\venv\Lib\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+  File "C:\Users\omu\Desktop\2526_fall_web_lab-main\venv\Lib\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\omu\Desktop\2526_fall_web_lab-main\venv\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\omu\Desktop\2526_fall_web_lab-main\06_error_handling\app\templates\edit_profile.html", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "C:\Users\omu\Desktop\2526_fall_web_lab-main\06_error_handling\app\templates\base.html", line 32, in top-level template code
+    {% block content %}{% endblock %}
+    ^^^^^^^^^^^^^^^^^
+  File "C:\Users\omu\Desktop\2526_fall_web_lab-main\06_error_handling\app\templates\edit_profile.html", line 22, in block 'content'
+    {{ form.location.label }}<br>
+    ^^^^^^^^^^^^^
+  File "C:\Users\omu\Desktop\2526_fall_web_lab-main\venv\Lib\site-packages\jinja2\environment.py", line 490, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'app.forms.EditProfileForm object' has no attribute 'location'
+2025-12-10 14:09:23,011 INFO: Web Programlama Lab startup [in C:\Users\omu\Desktop\2526_fall_web_lab-main\06_error_handling\app\__init__.py:42]
+2025-12-15 15:10:15,092 INFO: Web Programlama Lab startup [in /Users/afdursun/Desktop/2526_fall_web_lab/07_user_followers/app/__init__.py:42]
+2025-12-15 15:10:19,233 INFO: Web Programlama Lab startup [in /Users/afdursun/Desktop/2526_fall_web_lab/07_user_followers/app/__init__.py:42]
+2025-12-15 15:10:25,279 INFO: Web Programlama Lab startup [in /Users/afdursun/Desktop/2526_fall_web_lab/07_user_followers/app/__init__.py:42]
+2025-12-15 15:15:21,208 INFO: Web Programlama Lab startup [in /Users/afdursun/Desktop/2526_fall_web_lab/07_user_followers/app/__init__.py:42]
